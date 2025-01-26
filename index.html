@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Tech</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Suporte técnico de computadores para otimização, manutenção e mais. Agende seu serviço com House Tech.">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">House <span>Tech</span></div>
+        <button class="menu-toggle" aria-label="Abrir menu">
+            <span class="menu-icon"></span> <!-- Ícone de hambúrguer -->
+        </button>
+        <nav class="nav-menu">
+            <button class="close-menu" aria-label="Fechar menu">&times;</button> <!-- Ícone de fechar -->
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#feedbacks">Feedbacks</a></li>
+                <li><a href="#precos">Preços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="#contato" class="cta-button">Solicitar um orçamento</a>
+    </header>
+
+    <section class="hero" id="sobre">
+        <h1>Suporte Técnico de Computadores para o Seu Sucesso</h1>
+        <p>Oferecemos soluções completas para manutenção, otimização e reparos, garantindo o desempenho máximo do seu
+            computador com serviços rápidos, confiáveis e personalizados.</p>
+        <a href="#contato" class="cta-button">Agendar uma consulta</a>
+    </section>
+
+    <section class="services" id="servicos">
+        <h2>Serviços</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <h3>Otimização de Windows</h3>
+                <p>Melhore o desempenho do sistema operacional, garantindo mais velocidade e eficiência.</p>
+            </div>
+            <div class="service-item">
+                <h3>Manutenção Preventiva</h3>
+                <p>Evite problemas futuros com verificações regulares e ajustes no sistema.</p>
+            </div>
+            <div class="service-item">
+                <h3>Formatação e Instalação de Drivers</h3>
+                <p>Restaure o sistema com uma formatação completa e configure os drivers para melhor desempenho.</p>
+            </div>
+            <div class="service-item">
+                <h3>Limpeza</h3>
+                <p>Realize uma limpeza física e digital para manter o computador em perfeitas condições.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedbacks" id="feedbacks">
+        <h2>O que nossos clientes dizem?</h2>
+        <div class="feedback-grid">
+            <div class="feedback-item">
+                <p>"Excelente serviço! Meu computador voltou a funcionar como novo." - João S.</p>
+            </div>
+            <div class="feedback-item">
+                <p>"Atendimento rápido e eficiente. Recomendo para todos!" - Maria P.</p>
+            </div>
+            <div class="feedback-item">
+                <p>"Profissionais qualificados e comprometidos. Superou minhas expectativas!" - Carlos M.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="prices" id="precos">
+        <h2>Preços</h2>
+        <div class="price-grid">
+            <div class="price-item">
+                <h3>Otimização de Windows</h3>
+                <p>R$ 100,00</p>
+                <a href="#contato">Agendar agora</a>
+            </div>
+            <div class="price-item">
+                <h3>Manutenção Preventiva</h3>
+                <p>R$ 120,00</p>
+                <a href="#contato">Agendar agora</a>
+            </div>
+            <div class="price-item">
+                <h3>Formatação e Instalação de Drivers</h3>
+                <p>R$ 80,00</p>
+                <a href="#contato">Agendar agora</a>
+            </div>
+            <div class="price-item">
+                <h3>Limpeza</h3>
+                <p>R$ 50,00</p>
+                <a href="#contato">Agendar agora</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h3>Assistência Técnica Especializada</h3>
+        <p>Temos a solução para seus problemas técnicos. Oferecemos suporte rápido e eficiente para garantir o
+            funcionamento
+            ideal dos seus dispositivos.</p>
+        <a href="#contato">Solicitar Assistência</a>
+    </section>
+
+    <section class="contact" id="contato">
+        <h2>Entre em contato</h2>
+        <p>Se você tem alguma dúvida ou precisa de mais informações, entre em contato conosco.</p>
+        <form id="contactForm" class="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/wilkisonb" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="https://www.instagram.com/housetec95?igsh=YzUzZmlxYjV3NXFp" target="_blank"
+                rel="noopener noreferrer" title="Instagram">
+                <i class='bx bxl-instagram-alt'></i>
+            </a>
+            <a href="https://github.com/Wilki205" target="_blank" rel="noopener noreferrer" title="GitHub">
+                <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://wa.me/message/5YKV72IJO7WEM1" target="_blank" rel="noopener noreferrer" title="WhatsApp">
+                <i class='bx bxl-whatsapp-square'></i>
+            </a>
+        </div>
+        <ul class="list">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#feedbacks">Feedbacks</a></li>
+            <li><a href="#precos">Preços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <p>&copy; 2025 HouseTec Informática. Todos os Direitos Reservados.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
