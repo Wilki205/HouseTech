@@ -1,4 +1,4 @@
-# [HouseTech] - Suporte em Informática
+# HouseTech - Suporte em Informática
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Wilki205/HouseTech?style=for-the-badge&logo=github)
 ![GitHub top language](https://img.shields.io/github/languages/top/Wilki205/HouseTech?style=for-the-badge)
