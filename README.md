@@ -78,4 +78,4 @@ Este site foi construído do zero utilizando as seguintes tecnologias:
 Desenvolvido por **Wilkison Bruno**.
 
 * **GitHub**: [Wilki205](https://github.com/Wilki205)
-* **LinkedIn**: [Wilker Santos](https://www.linkedin.com/in/wilkisonb/)
+* **LinkedIn**: [Wilkison Bruno](https://www.linkedin.com/in/wilkisonb/)
