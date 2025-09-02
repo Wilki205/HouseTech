@@ -6,7 +6,7 @@
 
 ## 📄 Descrição
 
-Este é o site institucional da **[Nome da sua Assistência Técnica]**, um projeto criado para apresentar os serviços de suporte e manutenção de computadores em Recife e região. O objetivo é oferecer aos clientes uma plataforma clara, profissional e de fácil acesso para solicitar orçamentos e conhecer nosso trabalho.
+Este é o site institucional da **HouseTech**, um projeto criado para apresentar os serviços de suporte e manutenção de computadores em Recife e região. O objetivo é oferecer aos clientes uma plataforma clara, profissional e de fácil acesso para solicitar orçamentos e conhecer nosso trabalho.
 
 *(Este repositório contém o código-fonte da nossa landing page oficial.)*
 
